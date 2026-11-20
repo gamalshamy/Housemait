@@ -1,0 +1,14 @@
+@keyframes reviews-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+#reviews .reviews-container:hover .reviews-track {
+    animation-play-state: paused;
+}
+

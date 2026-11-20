@@ -1,0 +1,238 @@
+:root:has(#calendar-btn:checked) {
+
+    #features .feture-items #calendar-item {
+        display: flex;
+    }
+
+
+    #features .feture-items #chores-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #list-item,
+    #features .feture-items #health-item,
+    #features .feture-items #document-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+
+    #features .features-nav #calendar {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #chores,
+    #features .features-nav #meals,
+    #features .features-nav #lists,
+    #features .features-nav #health,
+    #features .features-nav #documents,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#chores-btn:checked) {
+
+    #features .feture-items #chores-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #list-item,
+    #features .feture-items #health-item,
+    #features .feture-items #document-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #chores {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #meals,
+    #features .features-nav #lists,
+    #features .features-nav #health,
+    #features .features-nav #documents,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#meals-btn:checked) {
+
+    #features .feture-items #meal-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #chores-item,
+    #features .feture-items #list-item,
+    #features .feture-items #health-item,
+    #features .feture-items #document-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #meals {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #chores,
+    #features .features-nav #lists,
+    #features .features-nav #health,
+    #features .features-nav #documents,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#lists-btn:checked) {
+
+    #features .feture-items #list-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #chores-item,
+    #features .feture-items #health-item,
+    #features .feture-items #document-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #lists {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #meals,
+    #features .features-nav #chores,
+    #features .features-nav #health,
+    #features .features-nav #documents,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#health-btn:checked) {
+
+    #features .feture-items #health-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #list-item,
+    #features .feture-items #chores-item,
+    #features .feture-items #document-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #health {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #meals,
+    #features .features-nav #lists,
+    #features .features-nav #chores,
+    #features .features-nav #documents,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#documents-btn:checked) {
+
+    #features .feture-items #document-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #list-item,
+    #features .feture-items #health-item,
+    #features .feture-items #chores-item,
+    #features .feture-items #whatsap-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #documents {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #meals,
+    #features .features-nav #lists,
+    #features .features-nav #health,
+    #features .features-nav #chores,
+    #features .features-nav #whatsapp {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}
+
+:root:has(#whatsapp-btn:checked) {
+
+    #features .feture-items #whatsap-item {
+        display: flex;
+    }
+
+    #features .feture-items #calendar-item,
+    #features .feture-items #meal-item,
+    #features .feture-items #list-item,
+    #features .feture-items #health-item,
+    #features .feture-items #document-item,
+    #features .feture-items #chores-item {
+        display: none;
+    }
+
+    
+    #features .features-nav #whatsapp {
+        background-color: var(--color-bg-tertiary);
+        color: #fff;
+        border-color: var(--color-bg-tertiary);
+    }
+
+    #features .features-nav #calendar,
+    #features .features-nav #meals,
+    #features .features-nav #lists,
+    #features .features-nav #health,
+    #features .features-nav #documents,
+    #features .features-nav #chores {
+        background-color: transparent;
+        color: var(--color-text-primary);
+        border-color: #ece7f5;
+    }
+}

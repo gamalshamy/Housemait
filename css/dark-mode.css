@@ -1,0 +1,47 @@
+:root:has(#moode:checked) {
+    #site-header #light {
+        display: flex;
+    }
+
+    #site-header #dark {
+        display: none;
+    }
+
+    --color-text-primary: #F7F3FC;
+    --color-text-secondary: #C5BDD6;
+    --color-text-tertiary: #C4A5F2;
+    --color-text-light: #1E1830;
+
+    --color-bg-primary: #F7F3FC;
+    --color-bg-light: #241D32;
+    --color-bg-secondary: #302741;
+    --color-bg-tertiary: #8B5BC7;
+    --color-bg-purple-light: #382B4D;
+    --color-bg-purple-dark: #49365F;
+
+    --color-yellow: #ba984d;
+
+    ::selection {
+        background-color: #8B5C1A;
+        color: #fff;
+    }
+
+    ::-webkit-scrollbar {
+        background-color: #302741;
+        border-left: 2px solid #49365F;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #8B5BC7;
+        box-shadow: 0 0 10px 0 #ffffff30 inset;
+    }
+
+    #school-letters .side-title .badge {
+        background-color: #28664D;
+        color: #fff;
+    }
+
+    #child-mode .child-content .header .badge {
+        background-color: #8F4058;
+    }
+}

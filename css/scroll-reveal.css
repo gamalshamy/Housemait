@@ -1,0 +1,123 @@
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-top {
+    opacity: 0;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+.reveal {
+    transform: translateY(200px);
+    animation-name: reveal-bottom;
+}
+
+.reveal-left {
+    transform: translateX(-30%);
+    animation-name: reveal-left;
+}
+
+.reveal-right {
+    transform: translateX(30%);
+    animation-name: reveal-right;
+}
+
+.reveal-top {
+    transform: translateY(-50px);
+    animation-name: reveal-top;
+}
+
+@keyframes reveal-bottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes reveal-left {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes reveal-right {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes reveal-top {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================= Home Section Animations =======*/
+#home .reveal {
+    animation: hero-reveal-bottom 1s ease both;
+}
+
+#home .reveal-left {
+    animation: hero-reveal-left 1s ease both;
+}
+
+#home .reveal-right {
+    animation: hero-reveal-right 1s ease both;
+}
+
+#home .reveal-top {
+    animation: hero-reveal-top 1s ease both;
+}
+
+@keyframes hero-reveal-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes hero-reveal-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes hero-reveal-right {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes hero-reveal-top {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

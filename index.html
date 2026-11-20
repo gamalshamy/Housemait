@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Housemait</title>
+    <link rel="icon" href="./images/housemait-favicon.png">
+
+    <!-- Font Awesome Library Icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Dark Mode Stylesheet -->
+    <link rel="stylesheet" href="./css/dark-mode.css">
+    <!-- Animation Stylesheet -->
+    <link rel="stylesheet" href="./css/animations.css">
+    <!-- Scroll Reveal Stylesheet -->
+    <link rel="stylesheet" href="./css/scroll-reveal.css">
+    <!-- Media Quries -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Actions Stylesheet -->
+    <link rel="stylesheet" href="./css/actions.css">
+
+</head>
+
+<body>
+    <header id="site-header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <img src="./images/imgi_1_logo-v2.png" alt="Housemait Logo">
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#assistant">Assistant</a></li>
+                <li><a href="#reviews">reviews</a></li>
+                <li><a href="#pricing">Subscribe</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="theme-toggle">
+                    <input type="checkbox" id="moode" hidden>
+                    <label for="moode" id="dark">
+                        <i class="fa-solid fa-moon"></i>
+                    </label>
+                    <label for="moode" id="light">
+                        <i class="fa-solid fa-sun"></i>
+                    </label>
+                </div>
+
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home" class="p-144-72">
+            <div class="container">
+                <div class="inner">
+                    <div class="hero-content side-title reveal-left">
+                        <h1>
+                            The family organiser that does the typing
+                        </h1>
+                        <h2>
+                            School dates, dinner and the chores.
+                            <span>Sorted.</span>
+                        </h2>
+
+                        <p class="home-description">
+                            Name the school and the year lands in the calendar.
+                            Forward a letter, send a voice note or ask in WhatsApp.
+                            Housemait does the typing.
+                        </p>
+
+                        <div class="home-actions">
+                            <a href="#" class="btn bg-tertiary color-light">
+                                Get the app
+                            </a>
+
+                            <a href="#" class="btn bg-purple-light color-tertiary">
+                                See how it works
+                            </a>
+                        </div>
+
+                        <span class="home-note color-secondary">
+                            Free for the whole family · 14 days of Housemait+
+                            included · No card needed
+                        </span>
+                    </div>
+
+                    <figure class="home-image reveal-right">
+                        <img src="./images/imgi_2_hero-family-v3.jpg"
+                            alt="Family using the Housemait app together at home">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="p-main">
+            <div class="container">
+                <header class="main-title reveal-left">
+                    <span class="section-badge ">
+                        What it does
+                    </span>
+
+                    <h2 class="">
+                        Everything the week
+                        <br>
+                        needs, in one app.
+                    </h2>
+
+                    <p>
+                        Seven things every family juggles.
+                        Tap one.
+                    </p>
+                </header>
+
+                <nav class="features-nav reveal-right">
+                    <ul>
+                        <li>
+                            <input type="radio" id="calendar-btn" name="feature" checked hidden>
+                            <label for="calendar-btn" id="calendar" class="button-1">
+                                <div class="icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                                Calendar
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="chores-btn" name="feature" hidden>
+                            <label for="chores-btn" id="chores" class="button-2">
+                                <div class="icon">
+                                    <i class="fa-regular fa-square-check"></i>
+                                </div>
+                                Chores
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="meals-btn" name="feature" hidden>
+                            <label for="meals-btn" id="meals" class="button-3">
+                                <div class="icon">
+                                    <i class="fa-solid fa-utensils"></i>
+                                </div>
+                                Meals
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="lists-btn" name="feature" hidden>
+                            <label for="lists-btn" id="lists" class="button-4">
+                                <div class="icon">
+                                    <i class="fa-solid fa-clipboard-list"></i>
+                                </div>
+                                Lists
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="health-btn" name="feature" hidden>
+                            <label for="health-btn" id="health" class="button-5">
+                                <div class="icon">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                Health
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="documents-btn" name="feature" hidden>
+                            <label for="documents-btn" id="documents" class="button-6">
+                                <div class="icon">
+                                    <i class="fa-regular fa-folder"></i>
+                                </div>
+                                Documents
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="whatsapp-btn" name="feature" hidden>
+                            <label for="whatsapp-btn" id="whatsapp" class="button-7">
+                                <div class="icon ">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                WhatsApp
+                            </label>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="feture-items">
+                    <article id="calendar-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                One calendar,
+                                <br>
+                                the whole family
+                            </h3>
+
+                            <p>
+                                School runs, clubs, birthdays and appointments,
+                                colour-coded by person and on every phone in the house.
+                                It syncs with the Google, Apple and Outlook calendars
+                                you already use.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/imgi_4_app-calendar-agenda.jpg"
+                                        alt="One calendar, the whole family">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification footbal">
+                                <i class="fa-solid fa-futbol"></i>
+                                <p>Football - Tue 5pm</p>
+                            </div>
+
+                            <div class="feature-notification grandma">
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <p>Grandma's birthday - Sun</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="chores-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                Chores kids actually do
+                            </h3>
+
+                            <p>
+                                Routines and quests with stars to earn and treats to spend. Beds get made, teeth get
+                                brushed, and nobody nags.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-tasks-day.jpg" alt="Chores kids actually do">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification laundry">
+                                <i class="fa-solid fa-shirt"></i>
+                                <p>Wash laundry</p>
+                            </div>
+
+                            <div class="feature-notification star">
+                                <i class="fa-solid fa-star"></i>
+                                <p>You earned 5 stars!</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="meal-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                A week of dinners
+                                <br>
+                                in minutes
+                            </h3>
+
+                            <p>
+                                Plan the week from your family recipe box, and every ingredient lands on the shopping
+                                list by itself.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-meals-week.jpg" alt="Chores kids actually do">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification dinner">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <p>Easy dinner tonight?</p>
+                            </div>
+
+                            <div class="feature-notification pasta">
+                                <i class="fa-solid fa-hourglass-half"></i>
+                                <p>Peasto pasta - 15 min</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="list-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                Lists that keep
+                                <br>
+                                everyone in sync
+                            </h3>
+
+                            <p>
+                                To-dos and shopping, shared in real time. Add it the moment you think of it, sorted
+                                before you forget.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-shopping.jpg" alt="Lists that keep everyone in sync">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification Strawberry">
+                                🍓
+                                <p>Strawberries</p>
+                            </div>
+
+                            <div class="feature-notification bag">
+                                <i class="fa-solid fa-hourglass-half"></i>
+                                <p>James added bin bags</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="health-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                The family’s health
+                                <br>
+                                details, in one place
+                            </h3>
+
+                            <p>
+                                Allergies, conditions, medications, vaccinations and who to call, for every person and
+                                pet. Every grown-up sees the same card, and you can share it as a message when the
+                                school or a sitter needs it. Encrypted, and never read by the assistant unless you ask.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-health.jpg" alt="The family’s health">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification nutes">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <p>Nutes - EpiPen in her bag</p>
+                            </div>
+
+                            <div class="feature-notification shared">
+                                <i class="fa-solid fa-share"></i>
+                                <p>Shared with grandma</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="document-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                The paperwork, f<strong>i</strong>ndable
+                            </h3>
+
+                            <p>
+                                Passports, policies, consent forms and school letters in one place. Housemait reads the
+                                expiry date and whose it is when you add one, and you can ask the assistant for any of
+                                them by name.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-documents.jpg" alt="The paperwork, findable">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification passport">
+                                <i class="fa-solid fa-passport"></i>
+                                <p>Ella's passport - expire Mar 2027</p>
+                            </div>
+
+                            <div class="feature-notification reminder">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p>Renwal reminder set</p>
+                            </div>
+
+                        </figure>
+                    </article>
+
+                    <article id="whatsap-item" class="item">
+                        <div class="side-title reveal-left">
+
+                            <h3>
+                                And manage it
+                                <br>
+                                all in WhatsApp
+                            </h3>
+
+                            <p>
+                                Message Housemait like a friend. Type, send a voice note or snap a school letter; it
+                                adds the event, updates the list and answers back in seconds.
+                            </p>
+
+                            <a href="#learn-more" class="learn-more color-tertiary">
+                                Learn more
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                        <figure class="feature-image reveal-right">
+                            <div class="phone">
+                                <img src="./images/imgi_3_phone-frame.webp" alt="smartphone">
+                                <div class="screen">
+                                    <img src="./images/app-whatsapp.jpg" alt="WhatsApp">
+                                </div>
+                            </div>
+
+                            <div class="feature-notification dentist">
+                                <i class="fa-solid fa-tooth"></i>
+                                <p>Ella's dentist Thu 3pm</p>
+                            </div>
+
+                            <div class="feature-notification calender">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p>Added to calender</p>
+                            </div>
+
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="school-letters" class="p-main bg-secondary">
+            <div class="container">
+                <div class="inner">
+                    <div class="side-title reveal-left">
+                        <span class="badge">
+                            School Letters
+                        </span>
+
+                        <h2>
+                            Forward the newsletter.
+                            The dates land themselves.
+                        </h2>
+
+                        <p>
+                            Every family gets its own Housemait email address.
+                            Forward the class newsletter, or snap a letter in WhatsApp,
+                            and every date lands in the family calendar,
+                            colour-coded by child and on every phone in the house.
+                        </p>
+
+                        <a href="#" class="learn-more">
+                            How email to calendar works
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="letters-preview reveal-right">
+                        <article class="email-card">
+                            <header class="email-header">
+                                <i class="fa-regular fa-envelope"></i>
+
+                                <h3>
+                                    Fwd: October newsletter
+                                </h3>
+                            </header>
+
+                            <ul class="list">
+                                <li class="event-item">
+                                    <time>OCT</time>
+                                    <p>Class photo day · Fri 10th</p>
+                                </li>
+
+                                <li class="event-item">
+                                    <time>OCT</time>
+                                    <p>Trip payment due · Wed 15th</p>
+                                </li>
+
+                                <li class="event-item">
+                                    <time>NOV</time>
+                                    <p>No school · teacher day · Mon 24th</p>
+                                </li>
+                            </ul>
+
+                            <p class="success-message">
+                                3 dates - the family calendar
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="assistant" class="p-main">
+            <div class="container">
+                <header class="main-title reveal-left">
+                    <span class="section-badge">
+                        Assistant
+                    </span>
+
+                    <h2>
+                        The little things, handled.
+                    </h2>
+
+                    <p>
+                        The bits of family admin nobody wants to type.
+                        Housemait does them from a photo, a voice note
+                        or a forwarded email.
+                    </p>
+
+                </header>
+
+                <div class="assistant-items">
+                    <a href="#" class="card reveal-left">
+                        <div class="card-header">
+                            <div class="icon">
+                                <i class="fa-solid fa-camera"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <h3>Snap a letter</h3>
+                        <p>Photograph the trip letter. The date, the
+                            deadline and what to bring, all filed.</p>
+                    </a>
+
+                    <article class="card reveal-right">
+                        <a href="#" class="card-header">
+                            <div class="icon">
+                                <i class="fa-solid fa-microphone"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+
+                        <h3>Say it on the school run</h3>
+                        <p>A voice note becomes an event, a list item
+                            or a reminder.</p>
+                    </article>
+
+                    <article class="card reveal-left">
+                        <a href="#" class="card-header">
+                            <div class="icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+
+                        <h3>Forward the newsletter</h3>
+                        <p>Every family gets an email address.
+                            Forward anything; it sorts itself.</p>
+                    </article>
+
+                    <article class="card reveal-right">
+                        <a href="#" class="card-header">
+                            <div class="icon">
+                                <i class="fa-solid fa-sun"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+
+                        <h3>A brief before the day starts</h3>
+                        <p>Tonight's dinner, tomorrow's kit, who's
+                            where. Morning and evening.</p>
+                    </article>
+
+                    <article class="card reveal-left">
+                        <a href="#" class="card-header">
+                            <div class="icon">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+
+                        <h3>The paperwork, findable</h3>
+                        <p>Consent forms, policies, passports.
+                            Ask for them by name.</p>
+                    </article>
+
+                    <article class="card reveal-right">
+                        <a href="#" class="card-header">
+                            <div class="icon">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                            </div>
+
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+
+                        <h3>Your calendars, together</h3>
+                        <p>Google, Apple and Outlook in one family
+                            view, colour-coded.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="child-mode" class="p-main">
+            <div class="container">
+                <div class="inner">
+                    <figure class="child-image reveal-left">
+                        <img src="./images/imgi_5_child-mode.jpg" alt="Child using the family app on a tablet">
+
+                        <figcaption class="achievement">
+                            <i class="fa-solid fa-star"></i>
+                            <span>You earned 5 stars!</span>
+                        </figcaption>
+                    </figure>
+
+                    <div class="child-content side-title reveal-right">
+                        <header class="header">
+                            <span class="badge">
+                                Child Mode
+                            </span>
+
+                            <h2>
+                                Their quests. Their stars.
+                                Nothing else.
+                            </h2>
+
+                            <p>
+                                Kids get a playful space of their own: today's quests,
+                                the stars they've earned and what they're saving for.
+                                No ads, no messages from strangers, no feed.
+                                You decide what they see.
+                            </p>
+                        </header>
+
+                        <ul class="child-features">
+                            <li>
+                                <span>
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                                <p>Stars to earn and treats to spend</p>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                                <p>Countdowns to the things they care about</p>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                                <p>You set the rewards and their star prices</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="p-main bg-secondary">
+            <div class="container">
+                <header class="main-title reveal-left">
+                    <span class="section-badge">
+                        Reviews
+                    </span>
+
+                    <h2>
+                        Loved by busy families.
+                    </h2>
+
+                    <p>
+                        Five-star reviews on the App Store, in their own words.
+                    </p>
+                </header>
+
+                <div class="reviews-container reveal">
+                    <div class="reviews-track">
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    "The first app we have used that genuinely feels
+                                    like it has been created for families. Superb."
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    M
+                                </div>
+
+                                <p>
+                                    <strong>Matt S.</strong>
+                                    <span>· App Store, May 2026</span>
+                                </p>
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “I can simply forward my emails to my inbox on Housemait and it puts all the
+                                    relevant
+                                    information in my diary.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    M
+                                </div>
+
+                                <p>
+                                    <strong>maxineworld</strong>
+                                    <span>· App Store, Aug 2026</span>
+                                </p>
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    "It brings calendars, lists, meals and chores
+                                    together in one place."
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    A
+                                </div>
+
+                                <p>
+                                    <strong>A UK parent</strong>
+                                    <span>· App Store, Aug 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “We all use it and I love that you can WhatsApp the AI and it gets added onto the
+                                    app.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    D
+                                </div>
+
+                                <p>
+                                    <strong>Dolly0269</strong>
+                                    <span>· App Store, Sep 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “Great app for keeping on top of things with the family.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    C
+                                </div>
+
+                                <p>
+                                    <strong>Connor A.</strong>
+                                    <span>· App Store, Sep 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “The first app we have used that genuinely feels like it has been created for
+                                    families. Superb.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    M
+                                </div>
+
+                                <p>
+                                    <strong>Matt S.</strong>
+                                    <span>· App Store, May 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “I can simply forward my emails to my inbox on Housemait and it puts all the
+                                    relevant information in my diary.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    M
+                                </div>
+
+                                <p>
+                                    <strong>Maxineworld</strong>
+                                    <span>· App Store, Aug 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <blockquote>
+                                <p>
+                                    “It brings calendars, lists, meals and chores together in one place.”
+                                </p>
+                            </blockquote>
+
+                            <footer class="review-author">
+                                <div class="avatar">
+                                    A
+                                </div>
+
+                                <p>
+                                    <strong>A UK parent</strong>
+                                    <span>· App Store, Aug 2026</span>
+                                </p>
+
+                            </footer>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="privacy" class="p-main">
+            <div class="container">
+                <div class="inner">
+                    <header class="main-title reveal-left">
+                        <p class="subtitle">
+                            the boring bit, done properly
+                        </p>
+
+                        <h2>
+                            Private by design.
+                        </h2>
+
+                        <p class="description">
+                            Housemait is where your family lives: plans, paperwork,
+                            little notes home. We treat that with the care it deserves.
+                        </p>
+                    </header>
+
+                    <div class="privacy-items reveal-right">
+                        <article class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <h3>No ads. No data sales.</h3>
+
+                            <p>
+                                Your family's data is yours. We never share it,
+                                sell it, or use it to train AI models.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
+
+                            <h3>Encrypted, always.</h3>
+
+                            <p>
+                                Industry-standard encryption in transit
+                                and at rest.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="icon">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <h3>Yours to take or delete.</h3>
+
+                            <p>
+                                Export everything, or delete your account
+                                and every trace of it, any time.
+                            </p>
+                        </article>
+                    </div>
+
+                    <footer class="footer reveal-left">
+
+                        <a href="#">
+                            Read our privacy promise
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="p-main">
+            <div class="container">
+                <div class="inner">
+                    <header class="main-title reveal-left">
+                        <span class="section-badge">Pricing</span>
+
+                        <h2>One subscription, the whole family.</h2>
+
+                        <p>
+                            Calendar, meals, lists and chores are free forever,
+                            with 10 free AI uses a month. Housemait+ unlocks
+                            the unlimited assistant and the automations that feed it.
+                        </p>
+                    </header>
+
+                    <div class="pricing-plans">
+                        <article class="pricing-card reveal-left">
+                            <header class="plan-header">
+                                <span class="plan-name">Free</span>
+
+                                <p class="plan-price">
+                                    <span class="price">$0</span>
+                                    <span class="price-period">forever</span>
+                                </p>
+
+                                <p class="plan-description">
+                                    The shared family app, for every member
+                                    of the household.
+                                </p>
+                            </header>
+
+                            <ul class="plan-features">
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Calendar, lists, to-dos & notes
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Chores, routines & rewards
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Child Mode
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Meal planner & recipes
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    School term dates built in
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Party invites & RSVPs
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    10 AI uses a month included
+                                </li>
+                            </ul>
+
+                            <footer class="plan-footer">
+                                <a href="#" class="plan-button">
+                                    Get started
+                                </a>
+                            </footer>
+                        </article>
+
+                        <article class="pricing-card premium reveal-right">
+                            <span class="badge">14 Days Free</span>
+
+                            <header class="plan-header">
+                                <span class="plan-name">Housemait <i class="fa-solid fa-plus"></i></span>
+
+                                <p class="plan-price">
+                                    <span class="price">$7.99</span>
+                                    <span class="price-period">/ month</span>
+                                    <span class="annual-price">
+                                        Or $79.99 a year (two months free)
+                                    </span>
+                                </p>
+
+
+                                <p class="plan-description">
+                                    Your family's assistant, on WhatsApp
+                                    and in the app.
+                                </p>
+                            </header>
+
+                            <ul class="plan-features">
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Unlimited AI uses - ask, add and plan by
+                                    text, photo or voice
+                                </li>
+
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Photograph or forward school letters,
+                                    every date lands itself
+                                </li>
+
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Morning and evening briefs before the
+                                    day starts
+                                </li>
+
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Your Google, Apple & Outlook calendars,
+                                    all in one view
+                                </li>
+
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Document vault - store your family's
+                                    paperwork and memories
+                                </li>
+
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    Voice notes become events, lists and
+                                    reminders
+                                </li>
+                            </ul>
+
+                            <footer class="plan-footer">
+                                <a href="#" class="plan-button">
+                                    Start 14 days free
+                                </a>
+                            </footer>
+
+                        </article>
+                    </div>
+
+                    <ul class="pricing-benefits reveal-left">
+                        <li>
+                            <span class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Whole family included
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            The app free forever
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            No card needed
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Cancel anytime
+                        </li>
+                    </ul>
+
+                    <footer class="pricing-note reveal-right">
+                        <p>
+                            Free AI uses reset on the 1st of each month.
+                            Answering the assistant's questions never counts as a use.
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="p-main bg-secondary">
+            <div class="container">
+                <div class="inner">
+                    <header class="main-title reveal-left">
+                        <span class="section-badge">
+                            FAQ
+                        </span>
+
+                        <h2>
+                            Questions, answered.
+                        </h2>
+                    </header>
+
+                    <div class="faq-list">
+                        <details class="faq-item reveal-right">
+                            <summary>
+                                <h3>What is Housemait?</h3>
+
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>
+                                    Housemait is an AI-powered family organiser that
+                                    brings your calendar, meals, shopping, chores and
+                                    school life into one shared app, with an assistant
+                                    on WhatsApp that does the typing for you.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item reveal-left">
+                            <summary>
+                                <h3>How does the WhatsApp assistant work?</h3>
+
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+
+                            <div class="faq-answer">
+                                <p>
+                                    Message Housemait like you’d message a friend: type, send a voice note, or snap a
+                                    photo of a school letter. It adds events, updates lists and answers questions about
+                                    the week, and everything appears in the app for the whole family, instantly.
+                                </p>
+                            </div>
+
+                        </details>
+
+                        <details class="faq-item reveal-right">
+                            <summary>
+                                <h3>Do both parents see the same thing?</h3>
+
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+
+                            <div class="faq-answer">
+                                <p>
+                                    Yes. Everyone in the family shares the same calendar, lists and plans, live. Add
+                                    something on the school run and it’s on your partner’s phone before you’re home.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item reveal-left">
+                            <summary>
+                                <h3>Is it safe for kids?</h3>
+
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+
+                            <div class="faq-answer">
+                                <p>
+                                    Child Mode is a separate, playful space with their quests, stars and countdowns, and
+                                    nothing else. No ads, no messages from strangers, no social feed. You decide what
+                                    they see.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item reveal-right">
+                            <summary>
+                                <h3>How much does it cost?</h3>
+
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+
+                            <div class="faq-answer">
+                                <p>
+                                    The family app is free forever: calendar, lists, chores, meals and school term
+                                    dates, plus 10 free AI uses a month. Housemait+ adds unlimited AI uses, calendar
+                                    sync, uploads and daily briefs for $7.99 a month or $79.99 a year (two months free),
+                                    one subscription for the whole household. Every family starts with 14 days of full
+                                    Housemait+, no card needed.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item reveal-left">
+                            <summary>
+                                <h3>Which phones does it work on?</h3>
+                                <span class="faq-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+
+                            <div class="faq-answer">
+                                <p>
+                                    Housemait is on iPhone and Android, and the WhatsApp assistant works from any phone.
+                                    There is a web app too.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="p-main">
+        <div class="container">
+            <div class="inner">
+                <div class="footer-main">
+                    <section class="footer-brand reveal-left">
+                        <a href="#" class="footer-logo">
+                            <img src="./images/imgi_1_logo-v2.png" alt="Housemait">
+                        </a>
+
+                        <p>
+                            The family organiser with an assistant
+                            in WhatsApp.
+                        </p>
+
+                        <div class="app-downloads">
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-brands fa-apple"></i>
+                                </div>
+                                <div class="content">
+                                    <small>Download on the</small>
+                                    <strong>App Store</strong>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="ico">
+                                    <i class="fa-brands fa-google-play"></i>
+                                </div>
+                                <div class="content">
+                                    <small>Get it on</small>
+                                    <strong>Google Play</strong>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+
+                    <div class="navs">
+                        <nav class="footer-links reveal-right">
+                            <h2>Product</h2>
+                            <ul>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#s">Term dates</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#">Get the app</a></li>
+                            </ul>
+                        </nav>
+
+                        <nav class="footer-links reveal-left">
+                            <h2>Resources</h2>
+                            <ul>
+                                <li><a href="#">Help centre</a></li>
+                            </ul>
+                        </nav>
+
+                        <nav class="footer-links reveal-right">
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Gift Housemait</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        &copy; 2026
+                        <a href="#">
+                            Gamal El-Shamy
+                        </a>.
+                        All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
