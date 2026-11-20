@@ -257,7 +257,6 @@ a:hover {
     border-bottom: 1px solid var(--color-bg-purple-light);
 }
 
-
 #site-header .navbar {
     padding: .9375rem;
     display: flex;
@@ -266,16 +265,12 @@ a:hover {
     position: relative;
 }
 
-/* Logo */
-
 #site-header .logo img {
     width: 135px;
     background-color: #fff;
     padding: 7px 10px;
     border-radius: 10px;
 }
-
-/* Navigation Links */
 
 #site-header .nav-links {
     position: absolute;
@@ -323,15 +318,12 @@ a:hover {
     color: var(--color-text-tertiary);
 }
 
-/* Navbar Actions */
-
 #site-header .nav-actions {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-/* Dark Mode Icons */
 #site-header .theme-toggle {
     color: var(--color-text-tertiary);
 }
@@ -356,21 +348,6 @@ a:hover {
     background-color: var(--color-bg-purple-light);
 }
 
-
-
-/* #site-header .theme-toggle label {
-    width: 36px;
-    height: 36px;
-    border: none;
-    border-radius: 50%;
-    background-color: #f3ecff;
-    color: var(--color-text-tertiary);
-    cursor: pointer;
-    font-size: 15px;
-} */
-
-/* Mobile Menu */
-
 #site-header .menu-toggle {
     display: none;
 }
@@ -389,8 +366,6 @@ a:hover {
     cursor: pointer;
     font-size: 16px;
 }
-
-/* Open Menu */
 
 #site-header .menu-toggle:checked~.nav-links {
     opacity: 1;
