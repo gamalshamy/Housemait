@@ -81,6 +81,8 @@ html {
     font-size: 14px;
     /* 14px */
     color: #000;
+    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .container {
